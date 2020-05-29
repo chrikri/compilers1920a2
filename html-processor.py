@@ -6,7 +6,7 @@ rexp2 = re.compile('<!--(.+?)-->',re.DOTALL)
 
 #rexp3a = re.compile('<script.*?>(.+?)</script>',re.DOTALL)
 
-#rexp3b = re.compile('<style>(.+?)</style>',re.DOTALL)
+#rexp3b = re.compile('<style.*?>(.+?)</style>',re.DOTALL)
 
 rexp3 = re.compile('<(style|script).*?>(.+?)</(style|script)>')
 
