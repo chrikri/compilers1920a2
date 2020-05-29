@@ -12,7 +12,7 @@ rexp3 = re.compile('<(style|script).*?>(.+?)</(style|script)>')
 
 rexp4 = re.compile(r'<a(.*?href="(.+?)">.+?)</a>',re.DOTALL)
 
-rexp5 = re.compile('<.*?>',re.DOTALL)
+rexp5 = re.compile('<.+?>',re.DOTALL)
 
 #html_entd= { '&amp;':'&','&gt;':'>','&lt;':'<','&nbsp;':' '}
 
